@@ -1,0 +1,87 @@
+body{
+    color: #b29566;
+}
+/*Estilos del nav*/
+.navbar{
+    /*background: #4e7c88;*/
+    background-color: transparent;
+}
+.icon-color, .nav-link{
+    color: #b29566;
+}
+.nav-link:hover{
+    color: #b6883d; 
+}
+/*Estilos del Header*/
+.jumbotron{ 
+    height: 100vh;
+    background: url('./img/homepage.jpg') #fff no-repeat; 
+    background-size: cover;
+}
+h2.subtitle {
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 14px;
+    padding-bottom: 10px;
+    color:#b29566;
+}
+.jumbotron .nav-link{
+    padding: 0px;   
+}
+.nav .nav-item img{
+    padding: 0 3px;
+    width: 68.750px;
+    height: 25px; 
+}
+/*Content*/
+/*.card-img1{ 
+    height: 100vh;
+    background: url('./img/EG_OHN_HiRes.jpg') #fff no-repeat center; 
+    background-size: cover;
+}  
+.card-img2{ 
+    height: 100vh;
+    background: url('./img/EG_Facebook-Sq3.jpg') #fff no-repeat center; 
+    background-size: cover;
+} */
+.view{
+    font-size: 1.2rem;
+    padding: 1.125rem;
+}
+.view a{
+    color:#b29566;
+}
+.card{
+    border: none;
+}
+.card-img-overlay{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h5.card-title{
+    font-size: 20px;
+}
+.card-img-overlay:hover{
+    background: rgba(255, 255, 255, 0.8);
+    color:#b29566;
+}
+.lives{ 
+    height: 200px;
+    background: url('./img/ellie-goulding-live-dates.jpg') #141831 no-repeat bottom left; 
+  }
+.lives h3{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    line-height: 100%;
+    margin: 35px 0 44px;
+    color:#b29566;
+}
+.tour{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+.col-12, .col-md-12, .col-md-6{
+    padding: 0px;
+}
